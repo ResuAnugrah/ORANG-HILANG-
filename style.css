@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap; /* agar bisa jadi 2 baris */
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .card {
+    width: 150px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+  }
+  
+  .card p {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
